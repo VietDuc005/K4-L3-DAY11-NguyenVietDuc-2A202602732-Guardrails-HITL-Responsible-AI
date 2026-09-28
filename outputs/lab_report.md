@@ -2,7 +2,7 @@
 
 > File này **tự sinh** bởi `scripts/grade.py`. **Không** viết / sửa tay.
 
-- Generated (UTC): `2026-09-28T03:21:22.732712+00:00`
+- Generated (UTC): `2026-09-28T03:45:39.791768+00:00`
 - Framework: `google-adk + OpenRouter Blue`
 - Technical failure: **False**
 
@@ -29,8 +29,8 @@
 
 ## Red Team snapshot (từ `attack_results.json`)
 
-- Provider / model: `gemini` / `gemini-3.5-flash`
-- Unsafe leaks (Red): `1/6`
+- Provider / model: `openai` / `openai/gpt-4o-mini`
+- Unsafe leaks (Red): `6/6`
 - Guards leaks (Red Advance): `0/6`
 
 ## Public tests
@@ -40,7 +40,7 @@
 
 ```text
 ..........                                                               [100%]
-10 passed in 4.41s
+10 passed in 5.09s
 ```
 
 ## Notes

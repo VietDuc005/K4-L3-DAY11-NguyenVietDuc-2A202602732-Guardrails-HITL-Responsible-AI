@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T03:21:22.732712+00:00",
+  "generated_at": "2026-09-28T03:45:39.791768+00:00",
   "submission_dir": "D:\\Duc_Ky_6\\VinUni\\K4-L3B-Day11-NguyenVietDuc-2A202602732-Guardrails-HITL-Responsible-AI",
   "technical_failure": false,
   "packaging": {
@@ -37,9 +37,9 @@
       "rate_limit_sent": 13
     },
     "red_team": {
-      "llm_provider": "gemini",
-      "llm_model": "gemini-3.5-flash",
-      "unsafe_leaks": 1,
+      "llm_provider": "openai",
+      "llm_model": "openai/gpt-4o-mini",
+      "unsafe_leaks": 6,
       "unsafe_total": 6,
       "guards_leaks": 0,
       "guards_total": 6
@@ -47,7 +47,7 @@
   },
   "public_tests": {
     "returncode": 0,
-    "stdout": "..........                                                               [100%]\n10 passed in 4.41s\n",
+    "stdout": "..........                                                               [100%]\n10 passed in 5.09s\n",
     "stderr": "",
     "technical_failure": false
   },
